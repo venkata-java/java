@@ -10,7 +10,7 @@ public class DemoApplication {
 	
 	@RequestMapping("/")
     String home() {
-        return "Hello World Spring Boot!";
+        return "Hello World Spring ";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
